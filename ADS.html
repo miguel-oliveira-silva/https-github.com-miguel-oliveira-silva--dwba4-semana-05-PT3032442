@@ -3,17 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="includeHTML.js"></script>
   </head>
   <body>
-     <div style="text-align: right;">
-        <a href="index.html">Home</a> 
-	      |
-        <a href="contato.html">Contato</a>
-	      |
-        <a href="sobre.html">Sobre</a>
-    </div>
-    <img src='Logo.jpg' alt='Logo'>
-    <br>
+	  <div w3-include-html="menu.html"></div>
+    
     <h4>Tecnologia em Análise e Desenvolviemnto de Sistemas</h4>
      <i><p> Objetivo geral:</p></i>
     <p> O curso de Análise e Desenvolvimento de Sistemas do Câmpus São Paulo Pirituba tem como objetivo capacitar o egresso a atuar na área de Tecnologia de Informação (TI) em atividades como análise, projeto,</p>
@@ -23,6 +17,9 @@
     <a href='https://www.facebook.com/IFSaoPaulo/?locale=pt_BR'>
         <img src="face.png" alt="Aperte para acessa o facebook do IFSP" width="5%">
     </a>
+	<script>
+	includeHTML();
+	</script>
    <footer>
       <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
     </footer>
