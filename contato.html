@@ -8,20 +8,19 @@
   <body>
     <div w3-include-html="menu.html"></div>
     <h2>Mande uma mensagem</h2>
-    <form action="eventos.html" method="POST">
-<ul>
-  <li>Nome <input type="text" id="nome" name="nome" required></li>
-  <li>E-mail<input type="email" id="email" name="email" required></li>
-  <li>Telefone<input type="tel" id="celular" name="celular" placeholder="(XX) XXXXX-XXXX" required>(99) 99999-9999</li>
-  <li>Mensagem<textarea id="mensg" name="mensg" rows="2" cols="30" required></textarea>
-</li>
-  <fieldset>
-    <legend>Opções de resposta</legend>
-  <li>Email<input type="checkbox" id="E-Mail" name="email" value="email"></li>
-  <li>Telefone<input type="checkbox" id="telefone" name="telefone" value="telefone"></li>
-  </fieldset>
-  <li><input type="submit" value="Enviar"></li>
-</ul>
+    <form method="POST">
+      <ul>
+        <li>Nome <input type="text" id="nome" name="nome" required></li>
+        <li>E-mail<input type="email" id="email" name="email" required></li>
+        <li>Telefone<input type="tel" id="celular" name="celular" placeholder="(XX) XXXXX-XXXX" required>(99) 99999-9999</li>
+        <li>Mensagem<textarea id="mensg" name="mensg" rows="2" cols="30" required></textarea></li>
+      <fieldset>
+        <legend>Opções de resposta</legend>
+        <li>Email<input type="checkbox" id="E-Mail" name="email" value="email"></li>
+        <li>Telefone<input type="checkbox" id="telefone" name="telefone" value="telefone"></li>
+    </fieldset>
+      <li><input type="submit" value="Enviar"></li>
+      </ul>
     </form>
     <a href='https://www.facebook.com/IFSaoPaulo/?locale=pt_BR'>
         <img src="face.png" alt="Aperte para acessa o facebook do IFSP" width="5%">
